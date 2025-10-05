@@ -9,7 +9,7 @@ const darkenColor = (hex, percent) => {
       .map(c => c + c)
       .join('');
   }
-  const num = parseInt(color, 16);y
+  const num = parseInt(color, 16); // ✅ sudah diperbaiki, hapus "y"
   
   let r = (num >> 16) & 0xff;
   let g = (num >> 8) & 0xff;
